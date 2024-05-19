@@ -32,15 +32,15 @@
         <Menu mnemonicParsing="false" text="Options">
             <MenuItem mnemonicParsing="false" text="About" />
         </Menu>
-        <Menu disable="true" mnemonicParsing="false" text="       " />
-        <Menu disable="true" mnemonicParsing="false" text="       " />
+        <Menu fx:id="menu1" disable="true" mnemonicParsing="false" text="       " />
+        <Menu fx:id="menu2" disable="true" mnemonicParsing="false" text="       " />
         <Menu mnemonicParsing="false" text="Help">
             <MenuItem mnemonicParsing="false" text="Action 1" />
         </Menu>
     </MenuBar>
     <HBox maxHeight="30.0" minHeight="30.0" prefHeight="30.0" VBox.vgrow="ALWAYS">
         <TextField id="searchField" fx:id="searchField" minHeight="30.0" promptText="Search" HBox.hgrow="ALWAYS" />
-        <Button minHeight="30.0" mnemonicParsing="false" onAction="#onSearchButton" text="Search" HBox.hgrow="ALWAYS" />
+        <Button fx:id="searchButton" minHeight="30.0" mnemonicParsing="false" onAction="#onSearchButton" text="Search" HBox.hgrow="ALWAYS" />
     </HBox>
     <HBox VBox.vgrow="ALWAYS">
         <SplitPane dividerPositions="0.3" HBox.hgrow="ALWAYS">

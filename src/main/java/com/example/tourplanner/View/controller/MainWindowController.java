@@ -3,10 +3,7 @@ package com.example.tourplanner.View.controller;
 import com.example.tourplanner.BL.models.TourEntry;
 import com.example.tourplanner.viewmodels.TourPlannerViewModel;
 import javafx.fxml.FXML;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 public class MainWindowController {
@@ -14,6 +11,9 @@ public class MainWindowController {
     public TableColumn<TourEntry, String> dateColumn;
     public TableColumn<TourEntry, String> durationColumn;
     public TableColumn<TourEntry, String> distanceColumn;
+    public Button searchButton;
+    public Menu menu1;
+    public Menu menu2;
     @FXML
     TextField searchField;
 
