@@ -11,7 +11,7 @@ import java.util.Date;
 public class TourPlannerViewModel {
 
     private StringProperty searchField;
-    private ListProperty<String> toursListView;
+    private ObservableList<String> toursListView = FXCollections.observableArrayList("1", "2");
     private ObservableList<TourEntry> data =
             FXCollections.observableArrayList(
                     new TourEntry("1.1.1","1","1"),
@@ -23,7 +23,6 @@ public class TourPlannerViewModel {
     public TourPlannerViewModel(DataModel model) {
         this.model = model;
         searchField = new SimpleStringProperty();
-        toursListView = new SimpleListProperty<>();
     }
 
     public void saveDataToList(){
@@ -34,7 +33,7 @@ public class TourPlannerViewModel {
         return searchField;
     }
 
-    public Property<ObservableList<String>> toursListViewProperty() {
+    public ObservableList<String> getToursListView() {
         return toursListView;
     }
 
