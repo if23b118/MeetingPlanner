@@ -1,13 +1,11 @@
-package com.example.tourplanner.View;
+package com.example.tourplanner.UI.View;
 
-import com.example.tourplanner.View.controller.MainWindowController;
-import com.example.tourplanner.viewmodels.ViewModelFactory;
+import com.example.tourplanner.UI.View.controller.MainWindowController;
+import com.example.tourplanner.UI.viewmodels.ViewModelFactory;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-
-import java.net.URL;
 
 public class ViewHandler {
 

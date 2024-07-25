@@ -1,8 +1,8 @@
 package com.example.tourplanner;
 
 import com.example.tourplanner.BL.models.ModelFactory;
-import com.example.tourplanner.View.ViewHandler;
-import com.example.tourplanner.viewmodels.ViewModelFactory;
+import com.example.tourplanner.UI.View.ViewHandler;
+import com.example.tourplanner.UI.viewmodels.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

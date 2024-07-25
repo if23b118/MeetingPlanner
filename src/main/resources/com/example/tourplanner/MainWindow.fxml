@@ -18,7 +18,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tourplanner.View.controller.MainWindowController">
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tourplanner.UI.View.controller.MainWindowController">
     <MenuBar minHeight="30.0">
         <padding>
             <Insets top="2.0" />
@@ -46,21 +46,18 @@
         <SplitPane dividerPositions="0.3" HBox.hgrow="ALWAYS">
             <AnchorPane minHeight="0.0" minWidth="100.0">
                 <TabPane layoutX="-1.0" minWidth="175.0" prefHeight="510.0" prefWidth="223.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                    <contextMenu>
-                        <ContextMenu>
-                            <items>
-                                <MenuItem mnemonicParsing="false" text="Add" />
-                                <MenuItem mnemonicParsing="false" text="Delete" />
-                                <MenuItem mnemonicParsing="false" text="More" />
-                            </items>
-                        </ContextMenu>
-                    </contextMenu>
                     <Tab text="Tours">
                         <AnchorPane minHeight="0.0" minWidth="0.0">
                             <ListView id="toursList" fx:id="toursListView" layoutX="-50.0" layoutY="29.0" prefHeight="481.0" prefWidth="114.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
-                                <contextMenu>
-                                    <ContextMenu />
-                                </contextMenu>
+                        <contextMenu>
+                                 <ContextMenu>
+                                     <items>
+                                         <MenuItem mnemonicParsing="false" onAction="#addTour" text="Add" />
+                                         <MenuItem mnemonicParsing="false" onAction="#deleteTour" text="Delete" />
+                                         <MenuItem mnemonicParsing="false" onAction="#modifyTour" text="Modify" />
+                                     </items>
+                                 </ContextMenu>
+                        </contextMenu>
                             </ListView>
                         </AnchorPane>
                     </Tab>
@@ -88,20 +85,43 @@
                             <contextMenu>
                                 <ContextMenu>
                                     <items>
-                                        <MenuItem mnemonicParsing="false" text="Add" />
-                                        <MenuItem mnemonicParsing="false" text="Delete" />
-                                        <MenuItem mnemonicParsing="false" text="More" />
+                                        <MenuItem mnemonicParsing="false" onAction="#addLog" text="Add" />
+                                        <MenuItem mnemonicParsing="false" onAction="#deleteLog" text="Delete" />
+                                        <MenuItem mnemonicParsing="false" onAction="#modifyLog" text="Modify" />
                                     </items>
                                 </ContextMenu>
                             </contextMenu>
+                     <Tab text="Tour Details">
+                       <content>
+                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                              <children>
+                                 <TableView id="tourLogsTableView" fx:id="tourLogsTableView1" prefHeight="222.0" prefWidth="269.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                    <columns>
+                                       <TableColumn fx:id="dateColumn1" minWidth="-Infinity" prefWidth="75.0" resizable="false" text="Name" />
+                                       <TableColumn fx:id="durationColumn1" prefWidth="75.0" text="Description" />
+                                       <TableColumn fx:id="distanceColumn1" prefWidth="75.0" text="From" />
+                                       <TableColumn prefWidth="75.0" text="To" />
+                                       <TableColumn prefWidth="75.0" text="Transport type" />
+                                       <TableColumn prefWidth="75.0" text="Tour distance" />
+                                       <TableColumn prefWidth="75.0" text="Estimated time" />
+                                       <TableColumn prefWidth="75.0" text="Route information" />
+                                    </columns>
+                                 </TableView>
+                              </children>
+                           </AnchorPane>
+                       </content>
+                     </Tab>
                             <Tab text="Tour Logs">
                                 <AnchorPane prefHeight="200.0" prefWidth="200.0">
                            <children>
                               <TableView id="tourLogsTableView" fx:id="tourLogsTableView" layoutX="-9.0" layoutY="-17.0" prefHeight="222.0" prefWidth="269.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                                 <columns>
                                   <TableColumn fx:id="dateColumn" minWidth="-Infinity" prefWidth="75.0" resizable="false" text="Date" />
-                                  <TableColumn fx:id="durationColumn" prefWidth="75.0" text="Duration" />
-                                    <TableColumn fx:id="distanceColumn" prefWidth="75.0" text="Distance" />
+                                  <TableColumn fx:id="durationColumn" prefWidth="75.0" text="Comment" />
+                                    <TableColumn fx:id="distanceColumn" prefWidth="75.0" text="Difficulty" />
+                                    <TableColumn prefWidth="75.0" text="Total distance" />
+                                    <TableColumn prefWidth="75.0" text="Total time" />
+                                    <TableColumn prefWidth="75.0" text="Rating" />
                                 </columns>
                               </TableView>
                            </children>

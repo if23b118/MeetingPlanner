@@ -1,12 +1,10 @@
-package com.example.tourplanner.viewmodels;
+package com.example.tourplanner.UI.viewmodels;
 
 import com.example.tourplanner.BL.models.DataModel;
 import com.example.tourplanner.BL.models.TourEntry;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-
-import java.util.Date;
 
 public class TourPlannerViewModel {
 

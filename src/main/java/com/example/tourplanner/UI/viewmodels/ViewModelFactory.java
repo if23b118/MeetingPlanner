@@ -1,4 +1,4 @@
-package com.example.tourplanner.viewmodels;
+package com.example.tourplanner.UI.viewmodels;
 
 import com.example.tourplanner.BL.models.ModelFactory;
 

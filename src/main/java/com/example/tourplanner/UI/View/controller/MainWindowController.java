@@ -1,7 +1,8 @@
-package com.example.tourplanner.View.controller;
+package com.example.tourplanner.UI.View.controller;
 
 import com.example.tourplanner.BL.models.TourEntry;
-import com.example.tourplanner.viewmodels.TourPlannerViewModel;
+import com.example.tourplanner.UI.viewmodels.TourPlannerViewModel;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -47,5 +48,24 @@ public class MainWindowController {
     public void onSearchButton() {
         System.out.println("Search button clicked!");
         viewModel.onSearchButton();
+    }
+
+    public void addTour(ActionEvent actionEvent) {
+        System.out.println(actionEvent);
+    }
+
+    public void deleteTour(ActionEvent actionEvent) {
+    }
+
+    public void modifyTour(ActionEvent actionEvent) {
+    }
+
+    public void addLog(ActionEvent actionEvent) {
+    }
+
+    public void deleteLog(ActionEvent actionEvent) {
+    }
+
+    public void modifyLog(ActionEvent actionEvent) {
     }
 }
