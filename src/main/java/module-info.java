@@ -4,6 +4,13 @@ module com.example.tourplanner {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires org.apache.logging.log4j;
+    requires java.naming;
+    requires java.sql;
+    requires org.postgresql.jdbc;
+    requires spring.session;
+    requires org.hibernate.orm.core;
+    requires jakarta.persistence;
 
     opens com.example.tourplanner to javafx.fxml;
     exports com.example.tourplanner;

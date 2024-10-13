@@ -1,0 +1,1538 @@
+2024-10-08 20:38:26 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:38:26 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:38:27 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:38:27 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:38:27 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:38:27 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:38:27 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:38:27 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:38:27 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:38:27 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:38:27 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:38:27 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 20:46:51 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:46:51 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:46:52 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:46:52 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:46:52 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:46:52 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:46:52 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:46:52 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:46:52 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:46:52 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:46:52 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:46:52 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 20:47:43 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:47:43 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:47:43 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:47:43 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:47:43 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:47:43 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:47:43 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:47:43 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:47:43 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:47:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:47:44 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:47:44 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 20:48:10 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:48:10 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:48:11 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:48:11 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:48:11 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:48:11 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:48:11 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:48:11 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:48:11 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:48:11 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:48:11 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:48:11 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 20:54:53 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:54:53 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:54:53 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:54:53 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:54:53 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:54:53 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:54:53 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:54:53 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:54:53 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:54:54 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:54:54 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:55:50 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:55:50 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:55:50 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 20:55:50 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 20:55:50 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 20:55:50 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:55:50 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 20:55:50 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 20:55:50 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 20:55:50 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 20:55:50 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 20:55:50 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 20:59:59 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 20:59:59 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 20:59:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:00:00 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:00:00 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:00:00 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:00:00 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:00:00 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:00:00 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:00:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:00:00 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:00:00 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:01:12 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:01:12 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:01:12 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-08 21:01:12 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:01:12 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:01:12 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:01:12 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:01:12 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-10-08 21:01:12 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:01:12 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:01:13 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:01:13 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:04:54 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:04:54 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:04:55 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:04:55 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:04:55 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:04:55 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:04:55 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:04:55 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:04:55 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:04:55 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:04:55 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:04:55 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:11:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:11:13 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:11:14 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:11:14 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:11:14 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:11:14 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:11:14 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:11:14 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:11:14 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:11:14 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:11:14 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:11:14 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:23:14 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:23:14 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:23:15 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:23:15 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:23:15 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:23:15 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:23:15 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:23:15 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:23:15 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:23:15 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:23:15 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:23:15 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:24:57 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:24:57 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:24:57 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:24:57 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:24:57 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:24:57 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:24:57 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:24:57 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:24:57 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:24:57 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:24:57 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:24:57 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:41:37 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:41:37 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:41:37 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:41:37 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:41:37 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:41:37 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:41:37 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:41:37 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:41:37 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:41:38 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:41:38 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:41:38 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:44:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:44:13 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:44:14 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:44:14 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:44:14 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:44:14 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:44:14 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:44:14 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:44:14 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:44:14 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:44:14 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:44:14 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:49:35 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:49:35 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:49:35 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:49:35 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:49:35 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:49:35 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:49:35 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:49:35 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:49:36 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:49:36 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:49:36 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:49:36 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:50:02 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:50:03 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:50:03 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:50:03 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:50:03 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:50:03 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:50:03 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:50:03 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:50:03 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:50:03 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:50:03 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:50:03 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 21:53:39 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 21:53:40 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 21:53:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 21:53:40 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 21:53:40 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 21:53:40 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:53:40 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 21:53:40 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 21:53:40 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 21:53:40 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 21:53:40 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 21:53:40 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:15:08 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:15:08 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:15:09 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:15:09 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:15:09 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:15:09 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:15:09 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:15:09 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:15:09 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:15:09 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:15:09 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:15:09 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:16:43 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:16:43 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:16:43 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:16:43 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:16:43 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:16:43 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:16:43 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:16:43 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:16:43 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:16:43 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:16:44 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:16:44 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:17:09 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:17:10 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:17:10 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:17:10 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:17:10 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:17:10 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:17:10 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:17:10 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:17:10 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:17:10 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:17:10 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:17:10 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:17:47 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:17:47 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:17:48 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:17:48 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:17:48 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:17:48 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:17:48 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:17:48 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:17:48 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:17:48 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:17:48 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:17:48 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:22:45 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:22:45 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:22:46 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:22:46 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:22:46 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:22:46 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:22:46 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:22:46 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:22:46 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:22:46 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:22:46 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:22:46 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:22:54 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:22:54 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:22:54 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:22:54 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:22:54 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:22:54 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:22:54 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:22:54 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:22:54 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:22:54 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:22:55 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:22:55 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:25:10 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:25:10 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:25:10 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:25:10 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:25:10 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:25:10 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:25:10 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:25:10 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:25:10 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:25:11 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:25:11 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:25:11 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-08 22:34:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-08 22:34:13 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-08 22:34:13 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 22:34:14 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-08 22:34:14 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-08 22:34:14 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:34:14 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-08 22:34:14 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-08 22:34:14 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-08 22:34:14 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-08 22:34:14 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-08 22:34:14 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-09 13:50:45 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-09 13:50:45 WARN  deprecation:99 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-09 13:50:46 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-09 13:50:46 WARN  ConnectionProviderInitiator:272 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-09 13:50:46 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-10-09 13:50:46 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+2024-10-09 13:50:46 INFO  pooling:128 - HHH10001001: Connection properties: {password=****, user=pguser}
+2024-10-09 13:50:46 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2024-10-09 13:50:46 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-10-09 13:50:46 WARN  JdbcEnvironmentInitiator:133 - HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:220) ~[hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:255) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:129) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:42) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:62) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:457) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:323) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:297) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:501) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:101) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:255) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709) [hibernate-core-5.6.15.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746) [hibernate-core-5.6.15.Final.jar:?]
+	at com.example.tourplanner.DAL.HibernateUtil.buildSessionFactory(HibernateUtil.java:12) [classes/:?]
+	at com.example.tourplanner.DAL.HibernateUtil.<clinit>(HibernateUtil.java:8) [classes/:?]
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-09 13:50:46 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-09 13:50:46 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 08001
+2024-10-09 13:50:46 ERROR SqlExceptionHelper:142 - Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-10-09 13:50:46 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 20:44:07 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 20:44:07 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 20:44:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 20:44:08 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 20:44:08 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 20:44:08 WARN  JdbcEnvironmentInitiator:389 - HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:255) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:68) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:52) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:136) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:133) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:507) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:380) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:558) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:107) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:87) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:136) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:68) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:434) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:305) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:449) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:101) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:949) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:999) [hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.HibernateUtil.buildSessionFactory(HibernateUtil.java:13) [classes/:?]
+	at com.example.tourplanner.DAL.HibernateUtil.<clinit>(HibernateUtil.java:9) [classes/:?]
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 20:44:08 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 20:44:08 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 12.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 20:44:08 WARN  SqlExceptionHelper:145 - SQL Error: 0, SQLState: 08001
+2024-10-11 20:44:08 ERROR SqlExceptionHelper:150 - Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-10-11 20:44:08 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 20:47:02 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 20:47:02 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 20:47:02 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 20:47:02 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 20:47:02 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 20:47:03 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 20:47:03 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 20:47:03 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 20:51:31 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 20:51:31 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 20:51:31 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 20:51:31 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 20:51:31 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 20:51:31 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 20:51:31 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 20:51:32 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 20:56:40 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 20:56:40 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 20:56:40 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 20:56:41 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 20:56:41 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 20:56:44 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 20:56:44 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 20:59:17 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 21:01:04 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 21:01:04 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 21:01:04 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 21:01:04 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 21:01:04 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 21:01:04 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 21:01:04 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 21:01:05 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 23:27:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:27:13 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:27:14 WARN  ConnectionProviderInitiator:214 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2024-10-11 23:27:14 WARN  JdbcEnvironmentInitiator:389 - HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:449) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:101) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:949) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:999) [hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.HibernateUtil.buildSessionFactory(HibernateUtil.java:13) [classes/:?]
+	at com.example.tourplanner.DAL.HibernateUtil.<clinit>(HibernateUtil.java:9) [classes/:?]
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 23:27:14 ERROR TourDAO:25 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:15) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-11 23:35:39 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:35:39 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:35:39 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:35:39 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:35:39 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:35:40 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:35:40 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:35:40 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:41:02 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:41:02 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:41:05 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:41:06 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:41:07 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:41:29 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:41:29 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:41:36 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:42:44 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:42:45 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:42:48 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:42:49 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:42:49 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:43:13 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:43:13 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:43:20 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:44:39 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:44:40 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:44:43 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:44:45 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:44:45 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:45:07 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:45:07 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:45:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:51:12 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:51:12 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:51:12 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:51:13 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:51:13 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:51:13 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:51:13 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:51:13 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:53:57 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:53:57 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:53:57 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:53:58 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:53:58 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:53:58 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:53:58 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:53:58 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:55:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:55:13 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:55:13 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:55:13 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:55:13 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:55:14 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:55:14 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:55:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:55:26 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:55:27 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:55:30 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:55:31 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:55:31 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:55:54 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:55:54 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:56:00 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 23:57:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-11 23:57:13 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-11 23:57:13 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-11 23:57:13 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-11 23:57:13 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-11 23:57:13 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 23:57:13 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-11 23:57:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 14:30:01 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 14:30:01 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 14:30:01 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 14:30:01 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 14:30:01 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 14:30:01 WARN  JdbcEnvironmentInitiator:389 - HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:255) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:68) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:52) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:136) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:133) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:507) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:380) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:558) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:107) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:87) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:136) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.ServiceRegistry.requireService(ServiceRegistry.java:68) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:434) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:305) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:129) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:449) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:101) [hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:949) [hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.HibernateUtil.buildSessionFactory(HibernateUtil.java:18) [classes/:?]
+	at com.example.tourplanner.DAL.HibernateUtil.<clinit>(HibernateUtil.java:11) [classes/:?]
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:16) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 14:30:01 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 14:30:01 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 12.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 14:30:01 WARN  SqlExceptionHelper:145 - SQL Error: 0, SQLState: 08001
+2024-10-12 14:30:01 ERROR SqlExceptionHelper:150 - Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-10-12 14:30:01 ERROR TourDAO:26 - Error saving tour: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.saveTour(TourDAO.java:16) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 14:30:58 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 14:30:58 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 14:30:58 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 14:30:59 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 14:30:59 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 14:30:59 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 14:30:59 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 14:30:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 14:58:59 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 14:58:59 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 14:59:00 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 14:59:00 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 14:59:00 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 14:59:00 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 14:59:00 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 14:59:01 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 15:02:42 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 15:02:42 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 15:02:43 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 15:02:43 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 15:02:43 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 15:02:43 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 15:02:43 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 15:02:43 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 15:02:44 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:21:39 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:21:39 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:21:39 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:21:40 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:21:40 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:21:40 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:21:40 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:21:40 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:21:41 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:22:48 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:22:48 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:22:49 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:22:49 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:22:49 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:22:49 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:22:49 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:22:50 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:35:27 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:35:37 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:35:37 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:35:37 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:35:37 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:35:37 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:35:38 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:35:38 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:35:38 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:35:38 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:37:47 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:37:47 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:37:47 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:37:47 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:37:47 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:37:47 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:37:47 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:37:48 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:37:48 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:38:31 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:38:31 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:38:32 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:38:32 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:38:32 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:38:32 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:38:32 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:38:32 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:38:32 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 16:57:24 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 16:57:24 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 16:57:24 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 16:57:25 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 16:57:25 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 16:57:25 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 16:57:25 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 16:57:25 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 16:57:26 ERROR TourDAO:43 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 17:00:32 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 17:00:32 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 17:00:32 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 17:00:32 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 17:00:32 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 17:00:32 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 17:00:33 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 17:00:33 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 17:00:33 ERROR TourDAO:45 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 21:13:06 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 21:13:06 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 21:13:06 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 21:13:06 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 21:13:06 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 21:13:07 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 21:13:07 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 21:13:07 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 21:13:07 ERROR TourDAO:45 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 21:56:45 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 21:56:45 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 21:56:46 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 21:56:46 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 21:56:46 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 21:56:46 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 21:56:46 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 21:56:47 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 21:56:47 ERROR TourDAO:45 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:05:58 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:05:58 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:05:59 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:05:59 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:05:59 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:05:59 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:05:59 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:06:00 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:06:00 ERROR TourDAO:45 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:06:51 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:06:51 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:06:52 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:06:52 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:06:52 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:06:52 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:06:52 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:06:52 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:11:38 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:11:38 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:11:38 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:11:38 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:11:38 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:11:38 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:11:39 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:11:39 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:13:03 ERROR TourDAO:45 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:17:45 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:17:45 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:17:46 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:17:46 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:17:46 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:17:46 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:17:46 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:17:46 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:17:46 ERROR TourDAO:45 - Error fetching tour by id: Hibernate cannot unwrap class com.example.tourplanner.DAL.Tour
+jakarta.persistence.PersistenceException: Hibernate cannot unwrap class com.example.tourplanner.DAL.Tour
+	at org.hibernate.internal.SessionImpl.unwrap(SessionImpl.java:2878) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:41) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:19:05 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:19:05 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:19:05 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:19:05 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:19:05 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:19:05 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:19:05 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:19:06 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:19:06 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:34:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:34:13 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:34:13 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:34:13 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:34:13 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:34:14 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:34:14 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:34:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:34:14 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:37:19 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:37:19 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:37:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:37:19 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:37:19 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:37:19 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:37:19 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:37:20 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:38:41 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:38:42 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:38:42 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:38:42 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:38:42 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:38:42 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:38:42 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:38:42 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 22:38:43 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:50:13 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:50:13 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:50:13 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:50:13 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:50:13 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:50:14 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:50:14 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:50:14 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 22:59:26 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 22:59:26 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 22:59:26 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 22:59:26 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 22:59:26 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 22:59:27 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 22:59:27 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 22:59:27 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:06:43 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:06:46 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:07:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:07:23 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:07:23 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:07:26 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:07:26 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:07:57 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:08:33 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:08:33 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:08:33 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:08:33 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:08:33 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:08:33 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:08:33 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:08:34 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:09:37 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:09:37 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:09:37 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:09:37 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:09:37 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:09:37 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:09:37 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:09:38 ERROR TourDAO:46 - Error fetching tour by id: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "com.example.tourplanner.DAL.HibernateUtil.getSessionFactory()" is null
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:40) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:09:59 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:09:59 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:09:59 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:09:59 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:09:59 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:09:59 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:09:59 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:10:00 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:10:00 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:24:19 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:24:19 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:24:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:24:19 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:24:19 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:24:20 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:24:20 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:24:20 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:24:20 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:29:16 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:29:16 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:29:16 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:29:16 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:29:16 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:29:16 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:29:17 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:29:17 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:30:13 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:30:23 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:30:23 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:30:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:30:23 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:30:23 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:30:23 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:30:23 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:30:24 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:31:13 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:46:51 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:46:51 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:46:51 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:46:51 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:46:51 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:46:51 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:46:51 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:46:52 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:46:52 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:48:46 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:48:46 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:48:46 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:48:46 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:48:46 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:48:47 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:48:47 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:48:47 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:48:47 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:55:28 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:55:28 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:55:28 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:55:28 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:55:28 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:55:28 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:55:28 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:55:29 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:55:29 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:56:00 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:56:00 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:56:00 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:56:01 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:56:01 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:56:01 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:56:01 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:56:01 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:56:01 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
+2024-10-12 23:57:41 INFO  Version:44 - HHH000412: Hibernate ORM core version [WORKING]
+2024-10-12 23:57:41 WARN  deprecation:110 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2024-10-12 23:57:41 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-10-12 23:57:41 WARN  ConnectionProviderInitiator:275 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2024-10-12 23:57:41 WARN  pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-10-12 23:57:41 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-12 23:57:41 INFO  pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/db_tourplanner]
+	Database driver: org.postgresql.Driver
+	Database version: 16.3
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-10-12 23:57:41 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-12 23:57:42 ERROR TourDAO:46 - Error fetching tour by id: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+org.hibernate.UnknownEntityTypeException: Unable to locate entity descriptor: com.example.tourplanner.DAL.Tour
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:439) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.requireEntityPersister(SessionImpl.java:2329) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.byId(SessionImpl.java:1171) ~[hibernate-core-6.6.1.Final.jar:?]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1025) ~[hibernate-core-6.6.1.Final.jar:?]
+	at com.example.tourplanner.DAL.TourDAO.getTourById(TourDAO.java:42) [classes/:?]
+	at com.example.tourplanner.Main.main(Main.java:20) [classes/:?]
