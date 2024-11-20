@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.meetingplaner.UI.View.controller.MainWindowController">
+
+    <left>
+        <VBox>
+            <HBox>
+            <Label text="Meetings">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+                <Button onAction="#plusButton" prefHeight="25.0" prefWidth="25.0" text="+">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin></Button>
+                <Button onAction="#minusButton" prefHeight="25.0" prefWidth="25.0" text="-">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin></Button>
+            </HBox>
+            <ListView fx:id="meetingListView" onMouseClicked="#meetingClicked" prefHeight="200.0">
+            <VBox.margin>
+               <Insets left="10.0" right="10.0" />
+            </VBox.margin></ListView>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox>
+            <Label fx:id="header" style="-fx-font-weight: bold;" text="Birthday">
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin></Label>
+            <HBox>
+                <Label text="Title:">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></Label>
+                <TextField fx:id="titleField">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></TextField>
+            </HBox>
+            <HBox>
+                <Label text="From:">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></Label>
+                <TextField fx:id="fromTimeField">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></TextField>
+                <Label text="To:">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+               </HBox.margin></Label>
+                <TextField fx:id="toTimeField">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></TextField>
+            </HBox>
+            <VBox>
+                <Label text="Agenda:">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></Label>
+                <TextArea fx:id="agendaTextArea">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="20.0" top="5.0" />
+               </VBox.margin></TextArea>
+            </VBox>
+            <VBox>
+                <Label text="Notes:">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></Label>
+                <ListView fx:id="notesListView" prefHeight="100.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="20.0" top="5.0" />
+               </VBox.margin></ListView>
+                <HBox>
+                    <Button fx:id="noteButton" onAction="#noteButton" text="Add Note">
+                  <HBox.margin>
+                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  </HBox.margin></Button>
+                    <TextField fx:id="newNoteField" HBox.hgrow="ALWAYS">
+                  <HBox.margin>
+                     <Insets bottom="5.0" left="5.0" right="20.0" top="5.0" />
+                  </HBox.margin></TextField>
+                </HBox>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT">
+                <Button alignment="CENTER_RIGHT" onAction="#saveMeetingButton" text="Save Meeting">
+                    <HBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="20.0" top="5.0" />
+                    </HBox.margin>
+                </Button>
+            </HBox>
+        </VBox>
+    </center>
+   <top>
+       <VBox BorderPane.alignment="CENTER">
+           <Button onAction="#generateReportButton" text="Generate Report">
+           <VBox.margin>
+               <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+           </VBox.margin>
+           </Button>
+           <HBox>
+               <Button mnemonicParsing="false" onAction="#onSearchButton" text="Search">
+                   <HBox.margin>
+                       <Insets bottom="5.0" left="10.0" top="5.0" />
+                   </HBox.margin>
+               </Button>
+               <TextField fx:id="searchField" promptText="Search" HBox.hgrow="ALWAYS">
+                   <HBox.margin>
+                       <Insets bottom="5.0" right="20.0" top="5.0" />
+                   </HBox.margin>
+               </TextField>
+           </HBox>
+       </VBox>
+   </top>
+</BorderPane>

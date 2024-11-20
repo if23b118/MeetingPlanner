@@ -1,7 +1,7 @@
-package com.example.tourplanner.UI.View;
+package com.example.meetingplaner.UI.View;
 
-import com.example.tourplanner.UI.View.controller.MainWindowController;
-import com.example.tourplanner.UI.viewmodels.ViewModelFactory;
+import com.example.meetingplaner.UI.View.controller.MainWindowController;
+import com.example.meetingplaner.UI.viewmodels.ViewModelFactory;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
@@ -9,8 +9,8 @@ import javafx.scene.Scene;
 
 public class ViewHandler {
 
-    private Stage stage;
-    private ViewModelFactory viewModelFactory;
+    private final Stage stage;
+    private final ViewModelFactory viewModelFactory;
 
     public ViewHandler(Stage stage, ViewModelFactory vmf) {
         this.stage = stage;
@@ -27,15 +27,15 @@ public class ViewHandler {
         Parent root = null;
 
         if("MainWindow".equals(viewToOpen)){
-            loader.setLocation(getClass().getResource("/com/example/tourplanner/MainWindow.fxml"));
+            loader.setLocation(getClass().getResource("/com/example/meetingplaner/MainWindow.fxml"));
             root = loader.load();
             MainWindowController view = loader.getController();
             view.init(viewModelFactory.getTourPlannerViewModel());
-            stage.setTitle("Tour Planner");
+            stage.setTitle("Meeting Planner");
         }
 
         scene = new Scene(root, 1000, 600);
-        stage.setTitle("Tour Planner");
+        stage.setTitle("Meeting Planner");
         stage.setScene(scene);
         stage.show();
     }

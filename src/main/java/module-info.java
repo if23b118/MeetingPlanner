@@ -1,4 +1,4 @@
-module com.example.tourplanner {
+module com.example.meetingplanner {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -10,12 +10,16 @@ module com.example.tourplanner {
     requires org.postgresql.jdbc;
     requires spring.session;
     requires org.hibernate.orm.core;
-    requires jakarta.persistence;
+    requires static lombok;
+    requires java.persistence;
+    requires kernel;
+    requires layout;
+    requires io;
 
-    opens com.example.tourplanner to javafx.fxml;
-    exports com.example.tourplanner;
-    exports com.example.tourplanner.UI.View.controller;
-    opens com.example.tourplanner.UI.View.controller to javafx.fxml;
+    opens com.example.meetingplaner to javafx.fxml;
+    exports com.example.meetingplaner;
+    exports com.example.meetingplaner.UI.View.controller;
+    opens com.example.meetingplaner.UI.View.controller to javafx.fxml;
 
-    exports com.example.tourplanner.BL.models;
+    exports com.example.meetingplaner.BL.models;
 }

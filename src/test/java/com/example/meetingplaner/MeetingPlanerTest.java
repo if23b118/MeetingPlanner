@@ -1,5 +1,4 @@
-package com.example.tourplanner;
-import javafx.scene.Node;
+package com.example.meetingplaner;
 import javafx.stage.Stage;
 import org.junit.jupiter.api.*;
 import org.testfx.api.FxToolkit;
@@ -11,10 +10,10 @@ import static org.testfx.api.FxAssert.verifyThat;
 import static org.testfx.matcher.base.NodeMatchers.isEnabled;
 import static org.testfx.matcher.control.LabeledMatchers.hasText;
 
-class TourPlannerTest extends ApplicationTest {
+class MeetingPlanerTest extends ApplicationTest {
 
     public void start(Stage stage) throws Exception {
-        new TourPlanner().start(stage);
+        new MeetingPlaner().start(stage);
     }
 
     @BeforeEach

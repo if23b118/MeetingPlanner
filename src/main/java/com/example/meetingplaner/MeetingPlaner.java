@@ -1,12 +1,12 @@
-package com.example.tourplanner;
+package com.example.meetingplaner;
 
-import com.example.tourplanner.BL.models.ModelFactory;
-import com.example.tourplanner.UI.View.ViewHandler;
-import com.example.tourplanner.UI.viewmodels.ViewModelFactory;
+import com.example.meetingplaner.BL.models.ModelFactory;
+import com.example.meetingplaner.UI.View.ViewHandler;
+import com.example.meetingplaner.UI.viewmodels.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-public class TourPlanner extends Application {
+public class MeetingPlaner extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         ModelFactory mf = new ModelFactory();

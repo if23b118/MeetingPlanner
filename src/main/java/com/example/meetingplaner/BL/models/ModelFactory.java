@@ -1,4 +1,4 @@
-package com.example.tourplanner.BL.models;
+package com.example.meetingplaner.BL.models;
 
 public class ModelFactory {
 
