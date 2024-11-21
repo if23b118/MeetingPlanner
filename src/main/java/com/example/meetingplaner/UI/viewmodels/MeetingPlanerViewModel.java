@@ -74,13 +74,7 @@ public class MeetingPlanerViewModel {
 
     public void onSearchButton() {
         String lowerCaseSearch = searchField.get().toLowerCase();
-        this.meetingsListView.clear();
-        this.notesListView.clear();
         this.chosenMeetingById = -1;
-        this.titleField.set(null);
-        this.fromTimeField.set(null);
-        this.toTimeField.set(null);
-        this.agendaTextArea.set(null);
 
         for(Meeting meeting : meetings) {
             for(Note note : notes) {
@@ -92,7 +86,7 @@ public class MeetingPlanerViewModel {
             }
 
             if(!meetingsListView.isEmpty()) {
-                if(meetingsListView.get(meetingsListView.size()-1).equals(meeting.getTitle()))continue;
+                if(meetingsListView.getLast().equals(meeting.getTitle()))continue;
             }
 
             for(String text : meeting.toString().split(",")){
@@ -132,18 +126,14 @@ public class MeetingPlanerViewModel {
         }
     }
 
-    public void newMeeting(){
+    public Meeting newMeeting(){
         Meeting newMeeting = new Meeting(meetings.size(),"(Title)","(YYYY-MM-DD TT:TT)","(YYYY-MM-DD TT:TT)","(agenda)");
         meetings.add(newMeeting);
+        logger.info("Creating new Meeting: {}", newMeeting);
         this.chosenMeetingById = newMeeting.getId();
-        this.titleField.set(newMeeting.getTitle());
-        this.fromTimeField.set(newMeeting.getFromDate());
-        this.toTimeField.set(newMeeting.getToDate());
-        this.agendaTextArea.set(newMeeting.getAgenda());
         this.fillMeetingListViews();
         this.fillNoteListViewsByMeetingId();
-        this.searchField.set("");
-        logger.info("Creating new Meeting: {}", newMeeting);
+        return newMeeting;
     }
 
     public void deleteChosenMeeting(){
@@ -165,13 +155,8 @@ public class MeetingPlanerViewModel {
         }
 
         this.chosenMeetingById = -1;
-        this.titleField.set(null);
-        this.fromTimeField.set(null);
-        this.toTimeField.set(null);
-        this.agendaTextArea.set(null);
         this.fillMeetingListViews();
         this.fillNoteListViewsByMeetingId();
-        this.searchField.set("");
         logger.info("Deleted Meeting: {}", chosenMeeting);
         model.saveAll(meetings, notes);
     }
@@ -188,6 +173,14 @@ public class MeetingPlanerViewModel {
         if(newagendaField.isEmpty()) newagendaField = " ";
         newagendaField = newagendaField.replaceAll("\\r?\\n", "-");
 
+        for(Meeting meeting: meetings){
+            if(meeting.getTitle().equals(newtitleField)){
+                this.titleField.set("");
+                logger.info("Title already taken: {}", meeting.getTitle());
+                return;
+            }
+        }
+
         meetings.get(chosenMeetingById).update(newtitleField,
                                                 newfromTimeField,
                                                 newtoTimeField,
@@ -195,19 +188,19 @@ public class MeetingPlanerViewModel {
         logger.info("Saved Meeting: {}", meetings.get(chosenMeetingById));
         model.saveAll(meetings, notes);
         this.fillMeetingListViews();
-        this.searchField.set("");
     }
 
     public void addNote(){
         String newNote = newNoteField.getValueSafe();
-        if(newNote.isEmpty())return;
+        if(newNote.isEmpty()){
+            logger.info("Note cannot be empty!");
+            return;
+        }
         notes.add(new Note(this.chosenMeetingById, newNote));
         logger.info("Added Note: {}", newNote);
         model.saveAll(meetings, notes);
-        this.newNoteField.set(null);
         this.fillMeetingListViews();
         this.fillNoteListViewsByMeetingId();
-        this.searchField.set("");
     }
 
     public void updateNote(String noteText) {
@@ -222,10 +215,8 @@ public class MeetingPlanerViewModel {
         else notes.get(chosenNoteIndex).setContent(newNoteField.getValueSafe());
         logger.info("Note updated: {}", noteText);
         model.saveAll(meetings, notes);
-        this.newNoteField.set(null);
         this.fillMeetingListViews();
         this.fillNoteListViewsByMeetingId();
-        this.searchField.set("");
     }
 
     public void generateReport(){
@@ -268,16 +259,14 @@ public class MeetingPlanerViewModel {
         }
     }
 
-    public void selectMeeting(String chosenTitle){
+    public Meeting selectMeeting(String chosenTitle){
         for(Meeting meeting : meetings){
             if(meeting.getTitle().equals(chosenTitle)){
                 this.chosenMeetingById = meeting.getId();
-                this.titleField.set(meeting.getTitle());
-                this.fromTimeField.set(meeting.getFromDate());
-                this.toTimeField.set(meeting.getToDate());
-                this.agendaTextArea.set(meeting.getAgenda());
                 this.fillNoteListViewsByMeetingId();
+                return meeting;
             }
         }
+        return null;
     }
 }
