@@ -1,4 +1,4 @@
-package com.example.meetingplaner.UI.viewmodels;
+package com.example.meetingplaner.BL.viewmodels;
 
 import com.example.meetingplaner.BL.models.ModelFactory;
 

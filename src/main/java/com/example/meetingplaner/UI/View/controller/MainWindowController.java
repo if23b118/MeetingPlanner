@@ -1,7 +1,7 @@
 package com.example.meetingplaner.UI.View.controller;
 
 import com.example.meetingplaner.BL.models.Meeting;
-import com.example.meetingplaner.UI.viewmodels.MeetingPlanerViewModel;
+import com.example.meetingplaner.BL.viewmodels.MeetingPlanerViewModel;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 

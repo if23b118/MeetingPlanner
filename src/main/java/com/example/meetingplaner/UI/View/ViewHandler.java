@@ -1,7 +1,7 @@
 package com.example.meetingplaner.UI.View;
 
 import com.example.meetingplaner.UI.View.controller.MainWindowController;
-import com.example.meetingplaner.UI.viewmodels.ViewModelFactory;
+import com.example.meetingplaner.BL.viewmodels.ViewModelFactory;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;

@@ -2,7 +2,7 @@ package com.example.meetingplaner;
 
 import com.example.meetingplaner.BL.models.ModelFactory;
 import com.example.meetingplaner.UI.View.ViewHandler;
-import com.example.meetingplaner.UI.viewmodels.ViewModelFactory;
+import com.example.meetingplaner.BL.viewmodels.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

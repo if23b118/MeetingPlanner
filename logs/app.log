@@ -3878,3 +3878,86 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.open
 2024-11-21 21:10:06 INFO  MeetingPlanerViewModel:160 - Deleted Meeting: 10,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
 2024-11-21 21:10:06 INFO  FileDAO:22 - All Meetings saved successfully.
 2024-11-21 21:10:06 INFO  FileDAO:33 - All Notes saved successfully.
+2024-11-21 21:14:53 INFO  Config:15 - config file successfully loaded.
+2024-11-21 21:14:53 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-21 21:14:53 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-21 23:40:08 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-21 23:40:08 INFO  MeetingPlanerViewModel:188 - Saved Meeting: 0, , , , 
+2024-11-21 23:42:35 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-21 23:42:35 INFO  MeetingPlanerViewModel:188 - Saved Meeting: 0, , , , 
+2024-11-21 23:47:08 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:47:59 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:49:33 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:51:44 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-21 23:51:44 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:52:56 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-21 23:52:56 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:54:18 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-21 23:54:18 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-21 23:57:52 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 00:00:49 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 00:00:49 INFO  MeetingPlanerViewModel:188 - Saved Meeting: 0, , , , 
+2024-11-22 00:00:49 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 00:00:49 INFO  MeetingPlanerViewModel:179 - Title already taken: Title
+2024-11-22 00:00:49 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:23:10 INFO  MeetingPlanerViewModel:160 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 15:38:04 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:38:26 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:39:05 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:40:37 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 15:41:15 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 15:41:15 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:41:15 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 15:41:15 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:41:16 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 15:41:16 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:41:16 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 15:41:16 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 15:42:11 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 15:42:33 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:43:35 INFO  Config:15 - config file successfully loaded.
+2024-11-22 15:43:35 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 15:43:35 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 15:43:36 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 15:43:36 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 15:43:37 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 15:43:37 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 15:43:37 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 15:43:37 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 15:44:10 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 15:44:42 INFO  Config:15 - config file successfully loaded.
+2024-11-22 15:44:42 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 15:44:42 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 15:44:49 INFO  MeetingPlanerViewModel:260 - PDF report created at: meeting_report_asdf.pdf
+2024-11-22 16:01:43 INFO  Config:15 - config file successfully loaded.
+2024-11-22 16:01:43 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 16:01:43 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
