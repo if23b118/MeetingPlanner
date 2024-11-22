@@ -137,6 +137,10 @@ public class MeetingPlanerViewModel {
     }
 
     public void deleteChosenMeeting(){
+        if(this.chosenMeetingById < 0){
+            logger.info("Nothing chosen to be deleted");
+            return;
+        }
         Meeting chosenMeeting = meetings.get(chosenMeetingById);
         meetings.remove(chosenMeeting);
 
@@ -203,17 +207,18 @@ public class MeetingPlanerViewModel {
         this.fillNoteListViewsByMeetingId();
     }
 
-    public void updateNote(String noteText) {
+    public void updateNote(String oldNoteText) {
         int chosenNoteIndex = -1;
         for(Note note : notes){
-            if(note.getContent().equals(noteText)){
+            if(note.getContent().equals(oldNoteText)){
                 chosenNoteIndex = notes.indexOf(note);
+                break;
             }
         }
         if(chosenNoteIndex < 0) return;
         if(newNoteField.getValueSafe().isEmpty())notes.remove(chosenNoteIndex);
         else notes.get(chosenNoteIndex).setContent(newNoteField.getValueSafe());
-        logger.info("Note updated: {}", noteText);
+        logger.info("Note updated: {}", newNoteField.getValueSafe());
         model.saveAll(meetings, notes);
         this.fillMeetingListViews();
         this.fillNoteListViewsByMeetingId();
