@@ -30,7 +30,7 @@ public class ViewHandler {
             loader.setLocation(getClass().getResource("/com/example/meetingplaner/MainWindow.fxml"));
             root = loader.load();
             MainWindowController view = loader.getController();
-            view.init(viewModelFactory.getTourPlannerViewModel());
+            view.init(viewModelFactory.getMeetingPlanerViewModel());
             stage.setTitle("Meeting Planner");
         }
 

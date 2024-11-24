@@ -3961,3 +3961,36 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.open
 2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
 2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
 2024-11-22 16:02:09 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-22 16:08:18 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-22 16:08:26 INFO  Config:15 - config file successfully loaded.
+2024-11-22 16:08:26 INFO  FileDAO:46 - All Meetings loaded Successfully.
+2024-11-22 16:08:26 INFO  FileDAO:60 - All Notes loaded successfully.
+2024-11-24 00:54:19 INFO  Config:15 - config file successfully loaded.
+2024-11-24 00:54:19 INFO  FileDAO:54 - All Meetings loaded Successfully.
+2024-11-24 00:54:19 INFO  FileDAO:68 - All Notes loaded successfully.
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-24 00:54:58 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:221 - Note updated: 
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 0,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:192 - Saved Meeting: 0, , , , 
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:183 - Title already taken: Title
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:221 - Note updated: updatedNote
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:164 - Deleted Meeting: 0,newTitle,2024-11-21 12:00,2024-11-21 12:30,agenda
+2024-11-24 01:41:35 INFO  MeetingPlanerViewModel:132 - Creating new Meeting: 2,(Title),(YYYY-MM-DD TT:TT),(YYYY-MM-DD TT:TT),(agenda)
+2024-11-24 01:41:42 INFO  Config:15 - config file successfully loaded.
+2024-11-24 01:41:42 INFO  FileDAO:54 - All Meetings loaded Successfully.
+2024-11-24 01:41:42 INFO  FileDAO:68 - All Notes loaded successfully.
