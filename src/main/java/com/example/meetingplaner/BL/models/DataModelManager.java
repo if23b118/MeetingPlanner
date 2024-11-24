@@ -6,7 +6,7 @@ import javafx.collections.ObservableList;
 import java.util.List;
 
 public class DataModelManager implements DataModel{
-    private final FileDAO fileDAO = new FileDAO();
+    private final FileDAO fileDAO = FileDAO.getInstance();
 
     @Override
     public List<Meeting> getAllMeetings() {

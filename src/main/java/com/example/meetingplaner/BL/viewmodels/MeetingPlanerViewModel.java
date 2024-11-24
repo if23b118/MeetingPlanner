@@ -229,20 +229,15 @@ public class MeetingPlanerViewModel {
         Meeting chosenMeeting = meetings.get(chosenMeetingById);
 
         try {
-            // Create PDFWriter instance
             PdfWriter writer = new PdfWriter(outputPath);
 
-            // Create PDFDocument instance
             PdfDocument pdf = new PdfDocument(writer);
 
-            // Create Document instance
             Document document = new Document(pdf);
 
-            // Add a title
             Text title = new Text("Meeting Report\n").setFontSize(18).setBold();
             document.add(new Paragraph(title).setTextAlignment(TextAlignment.CENTER));
 
-            // Add the report content
             document.add(new Paragraph(("Title: " + chosenMeeting.getTitle())));
             document.add(new Paragraph(("From: " + chosenMeeting.getFromDate())));
             document.add(new Paragraph(("To: " + chosenMeeting.getToDate())));
@@ -255,7 +250,6 @@ public class MeetingPlanerViewModel {
                 }
             }
 
-            // Close the document
             document.close();
             logger.info("PDF report created at: {}", outputPath);
 

@@ -4,13 +4,13 @@ import com.example.meetingplaner.BL.models.ModelFactory;
 
 public class ViewModelFactory {
 
-    private MeetingPlanerViewModel tourPlannerViewModel;
+    private MeetingPlanerViewModel meetingPlanerViewModel;
 
     public ViewModelFactory(ModelFactory mf) {
-        tourPlannerViewModel = new MeetingPlanerViewModel(mf.getDataModel());
+        meetingPlanerViewModel = new MeetingPlanerViewModel(mf.getDataModel());
     }
 
-    public MeetingPlanerViewModel getTourPlannerViewModel(){
-        return tourPlannerViewModel;
+    public MeetingPlanerViewModel getMeetingPlanerViewModel(){
+        return meetingPlanerViewModel;
     }
 }

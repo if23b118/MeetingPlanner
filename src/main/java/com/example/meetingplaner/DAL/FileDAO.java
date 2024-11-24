@@ -14,6 +14,14 @@ public class FileDAO {
     private static final String MEETING_FILE = Config.get("meetingFile");
     private static final String NOTE_FILE = Config.get("noteFile");
 
+    private static final FileDAO INSTANCE = new FileDAO();
+
+    private FileDAO(){}
+
+    public static FileDAO getInstance(){
+        return INSTANCE;
+    }
+
     public void saveMeetings(List<Meeting> meetings) {
         try (FileWriter writer = new FileWriter(MEETING_FILE, false)) {
             for(Meeting meeting : meetings) {
